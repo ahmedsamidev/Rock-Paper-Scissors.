@@ -1,0 +1,84 @@
+main,
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.results {
+    font-weight: 900;
+}
+
+.game-options {
+    display: flex;
+    gap: 10px;
+
+}
+
+.game-options button {
+    padding: 10px 20px;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    font-weight: 1px solid lightcoral;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+.game-options button:hover {
+    background-color: white;
+    color: lightcoral;
+    border: 1px solid lightcoral
+}
+
+.choices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.computer,
+.human,
+.computer-score,
+.human-score {
+    display: flex;
+    gap: 20px;
+}
+
+.computer>p,
+.human>p,
+.computer-score>p,
+.human-score>p {
+    font-size: large;
+    font-weight: bold;
+}
+
+.computer-choice,
+.human-choice {
+    color: lightcoral;
+    text-transform: capitalize;
+}
+
+.result {
+    font-weight: bold;
+    color: lightcoral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
